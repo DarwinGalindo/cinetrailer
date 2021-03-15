@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://www.thymeleaf.org"
+      layout:decorate="~{master.html}">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar película | CineTrailer</title>
+</head>
+<body>
+
+<div layout:fragment="content">
+    <h2>Editar película</h2>
+
+    <div th:insert="admin/_form :: form"></div>
+</div>
+</body>
+</html>
